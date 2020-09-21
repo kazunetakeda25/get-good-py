@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AppDelegate application:didReceiveRemoteNotification:fetchCompletionHandler:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "notification.request.content.userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ChatController tableView:cellForRowAtIndexPath:]:ChatController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeController viewWillAppear:]:HomeController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData profile]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__29-[HomeController viewDidLoad]_block_invoke.247:HomeController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ dictionary objectForKey:[AppData userProfile].server] ">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[PlayerChatController initController]_block_invoke_2:PlayerChatController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[OWLoginViewController webViewDidFinishLoad:]:OWLoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "webView.request.URL.absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__31-[GameCoachController loadData]_block_invoke:GameCoachController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__46-[CommentVC tableView:viewForHeaderInSection:]_block_invoke_2:CommentVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "objComment">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38+[RestClient forgotPassword:callback:]_block_invoke:RestClient.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[XLButtonBarPagerTabStripViewController cachedCellWidths]:XLButtonBarPagerTabStripViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "label.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ChatListController tableView:didSelectRowAtIndexPath:]:ChatListController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GroupDetailsController feedUI]:GroupDetailsController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Temp groupData]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38+[RestClient checkMail:name:callback:]_block_invoke:RestClient.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GamePlayerController onReady:]:GamePlayerController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData profile].ready">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[RestClient checkMail:name:callback:]:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "str">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__37-[PlayerChatController refreshDialog]_block_invoke:PlayerChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__31+[OverwatchService getLolState]_block_invoke_2:OverwatchService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData profile]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileController feedUI]:ProfileController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[AppData profile]:AppData.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "profile">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__28-[GroupChatVC actionSubmit:]_block_invoke:GroupChatVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "__32-[ChatController initController]_block_invoke.307:ChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "dialog.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__48-[ProfileTitleEditController getOverwatchHeroes]_block_invoke:ProfileTitleEditController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData userProfile].server]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateGroupController viewDidLoad]:CreateGroupController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__24+[AppData setListeners:]_block_invoke:AppData.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData userProfile]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayerChatController CheckifCoach]:PlayerChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData profile].id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayerChatController actionSubmit:]:PlayerChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSDate date] timeIntervalSince1970]">
+            </PersistentString>
+            <PersistentString
+               value = "a * 1000">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__24-[GroupChatVC UpdateUI:]_block_invoke:GroupChatVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Temp groupData]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GroupPendingVC UpdateUI:]:GroupPendingVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "parentVC.ObjGroup.pending_users">
+            </PersistentString>
+            <PersistentString
+               value = "parentVC.ObjGroup">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__27+[RestClient getAdminPost:]_block_invoke:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SignUpController signup]:SignUpController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__24-[GroupUserVC UpdateUI:]_block_invoke:GroupUserVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "__31-[ChatController actionSubmit:]_block_invoke:ChatController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__48+[RestClient getCommentList:reference:callback:]_block_invoke:RestClient.m">
+      </ContextState>
+      <ContextState
+         contextName = "__33-[LoginController viewDidAppear:]_block_invoke:LoginController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SortAndFilterController btnDoneClick:]:SortAndFilterController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSString stringWithFormat:@&quot;sort1_%@GameRatingMin&quot;, self.prefix]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[GameGroupController viewWillAppear:]_block_invoke:GameGroupController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__29-[HomeController updateBadge]_block_invoke:HomeController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[data objectForKey:@&quot;timestamp&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileTitleEditController viewDidLoad]:ProfileTitleEditController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData userProfile]">
+            </PersistentString>
+            <PersistentString
+               value = "[AppData profile].blizzard_id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GamePlayerController collectionView:willDisplayCell:forItemAtIndexPath:]:GamePlayerController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ChatController OfferClick:]:ChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSDate date] timeIntervalSince1970]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__destroy_helper_block_:GroupUserVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "parentVC.ObjGroup">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameGroupController collectionView:cellForItemAtIndexPath:]:GameGroupController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "[group.averageGameRating intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SelectHeroController tableView:cellForRowAtIndexPath:]:SelectHeroController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ArrCategory2 objectAtIndex:indexPath.row]">
+            </PersistentString>
+            <PersistentString
+               value = "[ArrSelectCategory2 containsObject:[ArrCategory2 objectAtIndex:indexPath.row]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ChatController animateTextField:height:up:]:ChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.frame.origin.y">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__46-[CommentVC tableView:viewForHeaderInSection:]_block_invoke:CommentVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileCoachListingController tableView:cellForRowAtIndexPath:]:ProfileCoachListingController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GroupUserVC tableView:cellForRowAtIndexPath:]:GroupUserVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Temp group].profile.userId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38+[RestClient getGroupWithID:callback:]_block_invoke_2:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[jsonData objectForKey:@&quot;data&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CommentVC tableView:viewForHeaderInSection:]:CommentVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "__38-[GroupListViewController viewDidLoad]_block_invoke:GroupListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[User initWithDictionary:]:User.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "dictionary[@&quot;lol_description&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "dictionary[@&quot;lol_id&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[OWLoginViewController getUserID:]:OWLoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ex">
+            </PersistentString>
+            <PersistentString
+               value = "[strContent rangeOfString:@&quot;BattleTag&lt;/h4&gt;&#xae;&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateGroupController SelectHero:]:CreateGroupController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GamePlayerController collectionView:cellForItemAtIndexPath:]:GamePlayerController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate userNotificationCenter:willPresentNotification:withCompletionHandler:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "notification.request.content.userInfo">
+            </PersistentString>
+            <PersistentString
+               value = "[vc viewControllers]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameCoachController loadData]:GameCoachController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "strServer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[RestClient login:password:callback:]:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "BASE_URL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GamePlayerController viewWillAppear:]:GamePlayerController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Temp needReload]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameCoachController tableView:willDisplayCell:forRowAtIndexPath:]:GameCoachController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[GroupDetailsController checkRole]_block_invoke:GroupDetailsController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.ObjGroup">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameGroupController loadData]:GameGroupController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[RestClient updateLoLProfile:]:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData profile]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayerChatController updateStateUI]:PlayerChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self CheckifCoach]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ChatController updateStateUI]:ChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[dialog.state intValue]">
+            </PersistentString>
+            <PersistentString
+               value = "dialog">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__29-[HomeController updateBadge]_block_invoke.304:HomeController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[data objectForKey:@&quot;timestamp&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[RestClient getPlayers:sort:playerRatingMax:playerRatingMin:gameRatingMax:gameRatingMin:server:platform:online:category:keyword:callback:]:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData token]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__27-[GroupPendingVC UpdateUI:]_block_invoke:GroupPendingVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[arUsers objectAtIndex:0]">
+            </PersistentString>
+            <PersistentString
+               value = "parentVC.ObjGroup">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GamePlayerController collectionView:numberOfItemsInSection:]:GamePlayerController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__36+[RestClient getLastGroupTimestamp:]_block_invoke:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[jsonData objectForKey:@&quot;data&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__39+[RestClient getUsersWithIDs:callback:]_block_invoke_2:RestClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[jsonData objectForKey:@&quot;data&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__34-[GroupPendingVC handleSingleTap:]_block_invoke:GroupPendingVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "snapshot.childrenCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeProfileController feedUI]:HomeProfileController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[arHr objectAtIndex:3]">
+            </PersistentString>
+            <PersistentString
+               value = "[UIImage imageNamed@&quot;Amumu&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "profile">
+            </PersistentString>
+            <PersistentString
+               value = "[UIImage imageNamed:[[arHr objectAtIndex:i] lowercaseString]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[GamePlayerController loadData]_block_invoke:GamePlayerController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__38-[PlayerChatController initController]_block_invoke.299:PlayerChatController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[snapshot.value stringValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[OverwatchService getLolState]:OverwatchService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppData profile]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameCoachController tableView:cellForRowAtIndexPath:]:GameCoachController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoLLoginViewController webViewDidFinishLoad:]:LOLLoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self getUserID:html]">
+            </PersistentString>
+            <PersistentString
+               value = "[self getServer:html]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
