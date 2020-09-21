@@ -1,0 +1,6 @@
+framework module SexyTooltip {
+  umbrella header "SexyTooltip-umbrella.h"
+
+  export *
+  module * { export * }
+}

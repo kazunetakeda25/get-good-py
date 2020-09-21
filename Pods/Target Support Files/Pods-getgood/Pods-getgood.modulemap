@@ -1,0 +1,6 @@
+framework module Pods_getgood {
+  umbrella header "Pods-getgood-umbrella.h"
+
+  export *
+  module * { export * }
+}
