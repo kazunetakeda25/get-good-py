@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayerSelfMessageCell" rowHeight="76" id="KGk-i7-Jjw" customClass="PlayerSelfMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="339" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tro-Ja-Fg4">
+                        <rect key="frame" x="14" y="5" width="259" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="KRd-Vn-vPP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                        <color key="textColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="RHS-H2-uDA">
+                        <rect key="frame" x="281" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="MKL-il-a8C"/>
+                            <constraint firstAttribute="height" constant="50" id="vmd-tO-15t"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="4Uf-2W-iXw">
+                        <rect key="frame" x="14" y="25" width="259" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="KKp-z7-ch7"/>
+                        </constraints>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RHS-H2-uDA" firstAttribute="leading" secondItem="Tro-Ja-Fg4" secondAttribute="trailing" constant="8" id="4t1-je-7yh"/>
+                    <constraint firstAttribute="bottom" secondItem="4Uf-2W-iXw" secondAttribute="bottom" constant="4.5" id="5Bf-pA-yWa"/>
+                    <constraint firstItem="4Uf-2W-iXw" firstAttribute="top" secondItem="Tro-Ja-Fg4" secondAttribute="bottom" constant="3" id="87m-mO-R1e"/>
+                    <constraint firstItem="Tro-Ja-Fg4" firstAttribute="top" secondItem="RHS-H2-uDA" secondAttribute="top" id="9A4-S0-3Rv"/>
+                    <constraint firstAttribute="trailing" secondItem="RHS-H2-uDA" secondAttribute="trailing" constant="8" id="9cs-HQ-CvX"/>
+                    <constraint firstItem="4Uf-2W-iXw" firstAttribute="trailing" secondItem="Tro-Ja-Fg4" secondAttribute="trailing" id="S5T-u7-4dy"/>
+                    <constraint firstItem="4Uf-2W-iXw" firstAttribute="leading" secondItem="Tro-Ja-Fg4" secondAttribute="leading" id="dp2-6y-3EF"/>
+                    <constraint firstItem="RHS-H2-uDA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="jQs-7S-Yq6"/>
+                    <constraint firstItem="Tro-Ja-Fg4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="u9M-7T-291"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="heightMessage" destination="KKp-z7-ch7" id="Gct-z3-MOs"/>
+                <outlet property="imageUser" destination="RHS-H2-uDA" id="lhy-Ko-hnV"/>
+                <outlet property="labelDateView" destination="Tro-Ja-Fg4" id="TEA-Lw-Qzo"/>
+                <outlet property="tvMessage" destination="4Uf-2W-iXw" id="D1x-zF-JSS"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="67"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar" width="200" height="200"/>
+    </resources>
+</document>

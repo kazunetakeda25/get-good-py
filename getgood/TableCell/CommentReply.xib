@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentReply" id="KGk-i7-Jjw" customClass="CommentReply">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WagDon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LT-2m-v1O">
+                        <rect key="frame" x="134" y="8" width="170" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="os8-Y9-Nrm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                        <color key="textColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lc3-C5-bpW">
+                        <rect key="frame" x="134" y="31" width="176" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="phz-2g-QP0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="arp-L2-tCP">
+                        <rect key="frame" x="86" y="9" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="25R-Cx-byl"/>
+                            <constraint firstAttribute="width" constant="40" id="avH-PL-PP6"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="lc3-C5-bpW" secondAttribute="bottom" constant="3.5" id="2Ie-1h-bTa"/>
+                    <constraint firstItem="lc3-C5-bpW" firstAttribute="top" secondItem="9LT-2m-v1O" secondAttribute="bottom" constant="1" id="A1H-ZI-vgY"/>
+                    <constraint firstAttribute="trailing" secondItem="9LT-2m-v1O" secondAttribute="trailing" constant="16" id="PIX-KO-Sx8"/>
+                    <constraint firstItem="9LT-2m-v1O" firstAttribute="leading" secondItem="arp-L2-tCP" secondAttribute="trailing" constant="8" id="R2G-Au-BbL"/>
+                    <constraint firstItem="9LT-2m-v1O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="aty-jm-Nf0"/>
+                    <constraint firstAttribute="trailing" secondItem="lc3-C5-bpW" secondAttribute="trailing" constant="10" id="cfz-jN-dWG"/>
+                    <constraint firstItem="lc3-C5-bpW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="134" id="g96-cf-fkn"/>
+                    <constraint firstItem="arp-L2-tCP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="86" id="lfX-6b-okV"/>
+                    <constraint firstItem="arp-L2-tCP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="pbh-wh-lRE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="imgLogo" destination="arp-L2-tCP" id="gdQ-8h-KcR"/>
+                <outlet property="lblTopic" destination="lc3-C5-bpW" id="M4q-U7-8ej"/>
+                <outlet property="lblUserName" destination="9LT-2m-v1O" id="7WM-Ij-q1e"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

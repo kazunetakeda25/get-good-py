@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>50678058713-vth2qmmnmrd1erkd5sifi1g6t74nv29t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.50678058713-vth2qmmnmrd1erkd5sifi1g6t74nv29t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_wz-M3Vmz4BmSK1D4Fh-WRs7esO75a1I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>50678058713</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dan.getgood</string>
+	<key>PROJECT_ID</key>
+	<string>getgood-ios-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>getgood-ios-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:50678058713:ios:f92d1e3589fc8efe</string>
+	<key>DATABASE_URL</key>
+	<string>https://getgood-ios-dev.firebaseio.com</string>
+</dict>
+</plist>
